@@ -10,4 +10,8 @@ The target environment for this is AWS Redshift, but at this point, there is not
 **Note:** This is quite possibly all junk and fit to be tossed.
 
 Generally, here is what is contained:
-1. DDL for the star schema tables
+
+1. SQL Power Architect model
+2. DDL for the star schema tables (Gen'ed by Power Arch)
+3. Python Scripts to populate the dimension tables from flat-file exports from Replicon
+4. Start on a python script to populate the fact table - probably no value
